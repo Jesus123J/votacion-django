@@ -1,0 +1,29 @@
+# Framework principal
+Django==4.2.7
+
+# API REST
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+djangorestframework-simplejwt==5.3.1
+
+# PostgreSQL driver (binario, no necesita compiladores)
+psycopg2-binary==2.9.10
+
+# Configuración de entorno
+python-dotenv==1.0.0
+
+# Servidor WSGI para producción (ej: Heroku, Docker, Linux)
+gunicorn==21.2.0
+
+# Dependencias útiles (opcional)
+setuptools>=70.0
+wheel>=0.44
+
+# HTTP client
+requests>=2.31.0
+
+# Reconocimiento facial (necesario para /api/face-verify/)
+deepface==0.0.79
+
+# OTP por SMS
+twilio==9.3.6
